@@ -22,10 +22,16 @@ const Nav =({history}) => (
                 </Link>
             </li>
             <li className="nav-item">
+                <Link style={currentTab(history, "/project")} className="nav-link text-white" to="/project">
+                Project
+                </Link>
+            </li>
+            <li className="nav-item">
                 <Link style={currentTab(history, "/about")} className="nav-link text-white" to="/about">
                     About
                 </Link>
-        </li>
+            </li>
+            
         </ul>
     </nav>
     </div>

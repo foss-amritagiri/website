@@ -3,6 +3,7 @@ import {BrowserRouter,Switch,Route} from "react-router-dom"
 import Home from './Component/home/home'
 import about from './Component/about/about'
 import notfound from './Component/notfound'
+import project from './Component/projects/project'
 
 export default function Routes() {
     return (
@@ -10,6 +11,7 @@ export default function Routes() {
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/about" component={about}/>
+                <Route exact paht="/project" component={project}/>
                 <Route component={notfound} />
             </Switch>
 

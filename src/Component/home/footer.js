@@ -13,7 +13,7 @@ const FooterNav = () => (
     <footer className="footer text-center text-md-left pt-2 bg-warning">
     <div className="container-fluid">
       <div className="row">
-            <div className="col-md-5 mx-auto">
+            <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">The Club</h5>
                  <ul className="list-unstyled">
                     <li><a href="#">Blog</a></li>
@@ -23,9 +23,19 @@ const FooterNav = () => (
             </div>
         <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">Contact us</h5>
-                    <p>Amrita <br/> College of Engineering and Technology <br/>
+                  <h6 className="text-uppercase"><i className="fa fa-envelope-o fa-1x"></i> Email</h6>
+                    <p><a href="mailto:amritagirifoss@gmail.com">amritagirifoss@gmail.com</a></p>
+                  <h6 className="text-uppercase"><i className="fa fa-location-arrow fa-1x"></i>Address</h6>
+                    <p>Amrita College <br/>of Engineering and Technology <br/>
                         Nagercoil,India</p>
-            </div>
+        </div>
+        <div className="col-md-2 mx-auto">
+          <h5 className="text-uppercase font-weight-bold mb-4 ">Follow us</h5>
+            <a href="https://github.com/foss-amritagiri"><i className="fa fa-github-alt fa-2x px-2 mx-auto"></i></a>
+            <a href="#"><i className="fa fa-twitter fa-2x px-2 mx-auto"></i></a>
+            <a href="#"><i className="fa fa-instagram fa-2x px-2 mx-auto"></i></a>
+
+        </div>
     </div>
     </div>
     
