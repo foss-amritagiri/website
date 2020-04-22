@@ -30,12 +30,13 @@ const FooterNav = () => (
                         Nagercoil,India</p>
         </div>
         <div className="col-md-2 mx-auto">
-          <h5 className="text-uppercase font-weight-bold mb-4 ">Follow us</h5>
+          <h5 className="text-uppercasefont-weight-bold mb-4 px-3">Follow us</h5>
+          <div className="follow-us">
             <a href="https://github.com/foss-amritagiri"><i className="fa fa-github-alt fa-2x px-2 mx-auto"></i></a>
             <a href="#"><i className="fa fa-twitter fa-2x px-2 mx-auto"></i></a>
             <a href="#"><i className="fa fa-instagram fa-2x px-2 mx-auto"></i></a>
-
-        </div>
+            </div>
+            </div>
     </div>
     </div>
     

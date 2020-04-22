@@ -7,11 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a{
-  color:black !important;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+footer a {
+  color:black !important;
+}
+@media only screen and (max-width: 900px){
+.follow-us .fa{
+  padding-bottom: 1.5rem;
+}
+.navbar-nav{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 1.7rem;
+}
 }
