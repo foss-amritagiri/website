@@ -7,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,4 +25,17 @@ footer a {
   padding-left: 20px;
   font-size: 1.7rem;
 }
+
+
+.navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 10px;
+  z-index:1030;
 }
+}
+
+
+

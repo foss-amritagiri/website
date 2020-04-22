@@ -4,7 +4,7 @@ import Footer from './footer';
 import '../../index.css'
 
 const Home = () => (
-    <div>
+    <div >
     <Nav/>
     <div className="container-fluid py-1">
             <div className="jumbotron bg-dark text-white text-center">
