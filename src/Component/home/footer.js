@@ -44,24 +44,19 @@ const FooterNav = () => (
 
   )
 
-  const footer_bottom =() => (
-    <div className="footer-copyright text-center py-auto bg-dark row m-0">
+const footer = () => (
+    <footer className="footer-bottom">
+      {FooterNav()}
+      <div className="footer-copyright text-center py-auto bg-dark row m-0">
       
       <div className="col-md-5 py-3 ">
          <a href="https://amrita.edu.in">
          <img className="w-50" src="https://events.agfoss.tech/static/amrita-c4212d3f473f977f4417f58c4a8103d6.png" alt="amrita" /></a>
        </div>
       <div className="col-md-4 text-white mx-auto py-4">
-         &copy; Team AgFoss 2018-{new Date().getFullYear()}. All Rights
-        Reserved.
+         &copy; Team AgFoss 2018-{new Date().getFullYear()}.
       </div>
       </div> 
-  )
-
-const footer = () => (
-    <footer>
-      {FooterNav()}
-      {footer_bottom()}
     </footer>
   )
 

@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2383d278' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23b5c13b' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%237fc27e' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2399a74b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2388bd7b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2395a046' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%239dbc62' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%239c8e29' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a8b251' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a09b2c' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23c8c22b' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23808841' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
@@ -12,9 +18,26 @@ code {
     monospace;
 }
 
+.page-container{
+  position: relative;
+  min-height: 100vh;
+}
+.container{
+  padding-bottom: 2.5rem;
+}
+
+.footer-bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem
+}
+
 footer a {
   color:black !important;
 }
+
+
 @media only screen and (max-width: 900px){
 .follow-us .fa{
   padding-bottom: 1.5rem;
@@ -25,7 +48,9 @@ footer a {
   padding-left: 20px;
   font-size: 1.7rem;
 }
-
+body{
+  padding-top:60px;
+}
 
 .navbar{
   position: fixed;
