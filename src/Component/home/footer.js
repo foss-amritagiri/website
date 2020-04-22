@@ -10,9 +10,9 @@ import React from 'react'
 }*/
 
 const FooterNav = () => (
-    <footer className="footer text-center text-md-left pt-2 bg-warning">
+    <footer className="footer text-center text-md-left pt-2 bg-custom">
     <div className="container-fluid">
-      <div className="row">
+      <div className="row space">
             <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">The Club</h5>
                  <ul className="list-unstyled">

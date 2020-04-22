@@ -26,6 +26,17 @@ code {
   padding-bottom: 2.5rem;
 }
 
+.bg-custom{
+  background: url(./images/wave.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.space{
+  padding-top:80px;
+}
+
 .footer-bottom{
   position: absolute;
   bottom: 0;
@@ -39,7 +50,15 @@ footer a {
 
 
 @media only screen and (max-width: 900px){
-.follow-us .fa{
+.bg-custom{
+  background-size:cover !important;
+  background: url('./images/wave_mobile.svg');
+}
+.space{
+  padding-top:2.5rem !important;
+}
+
+  .follow-us .fa{
   padding-bottom: 1.5rem;
 }
 .navbar-nav{
