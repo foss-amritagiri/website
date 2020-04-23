@@ -34,7 +34,7 @@ code {
 }
 
 .space{
-  padding-top:80px;
+  padding-top:100px;
 }
 
 .footer-bottom{
@@ -55,7 +55,7 @@ footer a {
   background: url('./images/wave_mobile.svg');
 }
 .space{
-  padding-top:2.5rem !important;
+  padding-top:5rem !important;
 }
 
   .follow-us .fa{

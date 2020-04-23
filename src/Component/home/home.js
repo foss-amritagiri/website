@@ -1,18 +1,19 @@
-import React from 'react';
-import Nav from '../nav/nav';
-import Footer from './footer';
+import React from 'react'
+import Nav from '../nav/nav'
+import Footer from './footer'
+import Carousel from './carousel/carousel'
+import Events from './events/event'
+
 import '../../index.css'
-import place from '../../images/place.svg'
+
 
 const Home = () => (
     <div className="page-container">
     <Nav/>
-    <div className="container-fluid py-auto">
-        <div className="place pull-right align-centre">
-            <img src={place} className="w-50" alt="place"/>
-        </div>
-
-     </div>
+    <div className="container-fluid">    
+    <Carousel/>
+    <Events/>
+    </div>
      <Footer />
      </div>
      

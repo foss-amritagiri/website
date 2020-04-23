@@ -1,0 +1,23 @@
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+    color:black;
+  }
+
+.btn{
+    margin-top: 15% !important
+}
+
+@media screen and (max-width: 900px){
+    .carousel-caption h1{
+        font-size: 30px;
+        left: 0;
+        right: 0;
+    }
+    .carousel-caption {
+        top: 15% !important;
+      }
+    .btn{
+        margin-top: 40% !important;
+    }
+}
