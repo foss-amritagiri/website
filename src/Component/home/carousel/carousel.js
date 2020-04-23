@@ -27,13 +27,6 @@ export default function carousel() {
                     <button type="button" className="btn btn-warning btn-lg">More</button>
                 </div>
         </div>
-        <div>
-            <img src="https://imagekit.io/static/img/newPages/homepage-wave-bg.svg" />
-            <div className="carousel-caption">
-                    <h1 className="carousel-caption text-white">don't click the button</h1>
-                    <button type="button" className="btn btn-warning btn-lg">More</button>
-            </div>
-        </div>
     </Carousel>
         </div>
     )

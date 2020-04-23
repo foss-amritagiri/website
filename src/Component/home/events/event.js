@@ -3,7 +3,7 @@ import './events.css'
 
 export default function event() {
     return (
-        <div className="events container-fluid ">
+        <div className="events">
             <div className="jumbotron bg-secondary text-white">
             <h1 className="text-white">Recent Events</h1>
                     <div className="row">

@@ -10,8 +10,8 @@ import '../../index.css'
 const Home = () => (
     <div className="page-container">
     <Nav/>
-    <div className="container-fluid">    
     <Carousel/>
+    <div className="container-fluid">    
     <Events/>
     </div>
      <Footer />
