@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './carousel.css'
-import { Carousel } from 'react-responsive-carousel';
- 
+import Team from '../../../images/item.png' 
+
 export default function carousel() {
     return (
         <div>
@@ -14,7 +15,7 @@ export default function carousel() {
         showIndicators={false}
     >
         <div>
-            <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="w-100" alt="img"/>
+            <img src={Team} alt="img"/>
                 <div className="carousel-caption">
                     <h1 className="carousel-caption text-white">What do we do?</h1>
                     <button type="button" className="btn btn-warning btn-lg">More</button>
