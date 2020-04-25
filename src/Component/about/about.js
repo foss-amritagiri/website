@@ -18,12 +18,12 @@ const about = () => (
                 </p>
                 </div>
                 </div>
-                <div className="row">
+                <div className="row m-0">
                 <div className="col-xl-6 mt-4 order-md-2">
-                <h1 className="text-center text-md-right display-3">Why Foss?</h1>
+                
                 </div>
-                <div className="col-xl-6 mt-4 order-md-1">
-                <p className="lead">What is FOSS?
+                <div className="col-xl-6 order-xl-1 order-lg-1 d-flex align-items-center">
+                <p className="lead"><h1 className="text-center text-md-left display-4">Why Foss?</h1>What is FOSS?
                 FOSS is a matter of the User’s freedom to run, copy, distribute, study, change and improve the software. 
                 The “free” as is used in Free and Open Source Softwares refers to ‘free as in freedom’ rather cost.
                 More precisely it refers to four kinds of freedom to the user’s of the Software The freedom to improve the program,

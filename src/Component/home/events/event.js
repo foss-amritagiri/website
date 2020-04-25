@@ -1,37 +1,24 @@
 import React from 'react'
+import Poster from './poster'
 import './events.css'
 import Hacktober from '../../../images/hacktober.png' 
-import Talk from '../../../images/talk.jpg' 
+import Talk from '../../../images/talk.png'
+import Tech from '../../../images/tech.png' 
 
 export default function event() {
     return (
         <div className="events">
-            <div className="jumbotron bg-secondary text-white">
-            <h1 className="display-md-4 text-white ">Recent Events</h1>
+            <div className="jumbotron bg-transparent">
+            <h1 className="display-3 text-center">Events</h1>
                     <div className="row m-0 points my-4">
                     <div className="col-md-3 p-2 d-flex  align-items-center mx-auto">
-                        <div class="card bg-dark text-white">
-                        <img  className="w-100 image" src={Hacktober} alt="hacktoberfest"/>
-                        <div class="card-img-overlay">
-                        <h2 class="card-title">Hacktoberfest</h2>
-                        </div>
-                        </div>
+                    <Poster Image={Hacktober} Title="Hacktoberfest"/>
                     </div>
                     <div className="col-md-3 p-2 d-flex  align-items-center mx-auto">
-                        <div class="card bg-dark text-white">
-                        <img  className="w-100 image" src={Talk} alt="hacktoberfest"/>
-                        <div class="card-img-overlay">
-                        <h5 class="card-title">Hacktoberfest</h5>
-                        </div>
-                        </div>
+                    <Poster Image={Talk} Title="FOSS Talk"/>
                     </div>
                     <div className="col-md-3 p-2 d-flex  align-items-center mx-auto">
-                        <div class="card bg-dark text-white">
-                        <img  className="w-100 image" src={Hacktober} alt="hacktoberfest"/>
-                        <div class="card-img-overlay">
-                        <h5 class="card-title">Hacktoberfest</h5>
-                        </div>
-                        </div>
+                    <Poster Image={Tech} Title="TechTrovia"/>
                     </div>
                     </div>
                     </div>
