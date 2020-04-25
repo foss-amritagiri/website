@@ -11,7 +11,7 @@ const Home = () => (
     <div className="page-container">
     <Nav/>
     <Carousel/>
-    <div className="container-fluid">    
+    <div className="mx-auto">    
     <Events/>
     </div>
      <Footer />

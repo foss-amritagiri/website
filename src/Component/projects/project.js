@@ -1,7 +1,7 @@
-import React from 'react';
-import Nav from '../nav/nav';
+import React from 'react'
+import Nav from '../nav/nav'
 import Footer from '../home/footer'
-import FlipCard from "react-flip-cards";
+import FlipCard from "react-flip-cards"
 import 'react-flip-cards/build/index.css'
 import './project.css'
 
@@ -31,6 +31,7 @@ const Card2 = () => (
 
 export default function project() {
     return (
+        
         <div className="page-container">
         <Nav/>
         <div className="jumbotron">

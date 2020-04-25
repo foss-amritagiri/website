@@ -17,7 +17,7 @@ const Nav = ({history}) => (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
         <img className="App-logo" src={logo} style={{width:"50px"}}/>
         <button 
-            className="navbar-toggler" 
+            className="navbar-toggler collapsed" 
             type="button" 
             data-toggle="collapse" 
             data-target="#navbarNav" 
@@ -25,7 +25,8 @@ const Nav = ({history}) => (
             aria-expanded="false" 
             aria-label="Toggle navigation"
         >
-        <span className="navbar-toggler-icon"></span>
+        <span className="close text-white"><i class="fa fa-times"></i></span>
+        <span className="open text-white"><i className="fa fa-bars"></i></span>
       </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul className="nav navbar-nav">

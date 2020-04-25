@@ -1,23 +1,25 @@
 
 .events{
-    padding-top: 25px;
     padding-bottom: 10px;
 }
 
-.content .h1{
-    font-size:2.5rem;
-}
-.p{
-    text-align: justify;
-}
-
-@media only screen and (max-width:900px){ 
-.content .h1{
-    justify-content: center;
-    font-size: 1.5rem;
-}
-.content{
-    padding-top:15px;
-}
+.card-title{
+    text-align: center;
+    margin-top: 50%;
+    transition: .5s ease;
+    opacity: 0;
 }
 
+.image {
+    transition: .5s ease;
+  }
+
+.card:hover .card-title {
+    opacity: 1;
+    border-style: solid;
+  }
+
+.card:hover .image{
+    opacity: 0.2;
+  
+}
