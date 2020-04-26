@@ -32,7 +32,7 @@ code {
   background: url(./images/wave.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 180%;
 }
 
 .space{
@@ -67,7 +67,7 @@ footer a {
 
 .navbar-nav{
   padding-top: 50px;
-  padding-bottom: 1000px;
+  padding-bottom: 100vh;
   font-size: 2.5rem;
   text-align: center;
 }

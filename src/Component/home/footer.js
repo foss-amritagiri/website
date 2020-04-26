@@ -1,13 +1,4 @@
 import React from 'react'
-/*export default function Footer() {
-    return (
-        <div className="footer fixed-bottom bg-dark">
-            <div class="footer-copyright text-center py-3">
-            <span className="text-white">FOSS@AMRITAGIRI</span> © 2020 Copyright
-             </div>
-        </div>
-    )
-}*/
 
 const FooterNav = () => (
     <footer className="footer text-center text-md-left pt-2 bg-custom">
@@ -16,25 +7,25 @@ const FooterNav = () => (
             <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">The Club</h5>
                  <ul className="list-unstyled">
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Workshop</a></li>
-                    <li><a href="#">Events</a></li>
+                    <li><a href="https://blog.agfoss.tech/" alt="Blog">Blog</a></li>
+                    <li><a href="#" alt="Workshop">Workshop</a></li>
+                    <li><a href="https://events.agfoss.tech/" alt="Events">Events</a></li>
                 </ul>
             </div>
         <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">Contact us</h5>
                   <h6 className="text-uppercase"><i className="fa fa-envelope-o fa-1x"></i> Email</h6>
-                    <p><a href="mailto:amritagirifoss@gmail.com">amritagirifoss@gmail.com</a></p>
+                    <p><a href="mailto:amritagirifoss@gmail.com" alt="Email">amritagirifoss@gmail.com</a></p>
                   <h6 className="text-uppercase"><i className="fa fa-location-arrow fa-1x"></i>Address</h6>
-                    <p>Amrita College <br/>of Engineering and Technology <br/>
-                        Nagercoil,India</p>
+                    <address>Amrita College <br/>of Engineering and Technology <br/>
+                        Nagercoil,India</address>
         </div>
         <div className="col-md-2 mx-auto">
           <h5 className="text-uppercasefont-weight-bold mb-4 px-3">Follow us</h5>
           <div className="follow-us">
-            <a href="https://github.com/foss-amritagiri"><i className="fa fa-github-alt fa-2x px-2 mx-auto"></i></a>
-            <a href="#"><i className="fa fa-twitter fa-2x px-2 mx-auto"></i></a>
-            <a href="#"><i className="fa fa-instagram fa-2x px-2 mx-auto"></i></a>
+            <a href="https://github.com/foss-amritagiri" alt="Github"><i className="fa fa-github-alt fa-2x px-2 mx-auto"></i></a>
+            <a href="#" alt="Twitter"><i className="fa fa-twitter fa-2x px-2 mx-auto"></i></a>
+            <a href="#" alt="Instagram"><i className="fa fa-instagram fa-2x px-2 mx-auto"></i></a>
             </div>
             </div>
     </div>

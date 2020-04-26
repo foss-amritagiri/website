@@ -5,7 +5,7 @@
 
 .card-title{
     text-align: center;
-    margin-top: 50%;
+    margin-top: 45%;
     transition: .5s ease;
     opacity: 0;
 }
@@ -16,7 +16,10 @@
 
 .card:hover .card-title {
     opacity: 1;
-    border-style: solid;
+  }
+
+  .card .title{
+    border-style: solid;  
   }
 
 .card:hover .image{

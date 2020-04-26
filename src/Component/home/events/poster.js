@@ -2,13 +2,17 @@ import React from 'react'
 
 const Poster = ({
     Image="",
-    Title=""
+    Title="",
+    Description="",
+    Date=""
 }) => (
 <div class="card bg-dark text-white">
     <img  className="w-100 image" src={Image} alt="hacktoberfest"/>
             <div class="card-img-overlay">
                 <div className="card-title">
-                    <h2>{Title}</h2>
+                    <h3 className="lead">{Date}</h3>
+                    <h2 className="title">{Title}</h2>
+                    <p className="">{Description}</p>
                 </div>
              </div>
    </div>
