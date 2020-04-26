@@ -25,7 +25,7 @@ const Nav = ({history}) => (
             aria-expanded="false" 
             aria-label="Toggle navigation"
         >
-        <span className="close text-white"><i class="fa fa-times"></i></span>
+        <span className="close text-white"><i className="fa fa-times"></i></span>
         <span className="open text-white"><i className="fa fa-bars"></i></span>
       </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">

@@ -52,6 +52,7 @@ footer a {
 
 
 
+
 @media only screen and (max-width: 900px){
 .bg-custom{
   background-size:cover !important;
@@ -85,6 +86,3 @@ body{
   z-index:1030;
 }
 }
-
-
-

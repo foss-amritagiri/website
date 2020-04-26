@@ -6,9 +6,9 @@ const Poster = ({
     Description="",
     Date=""
 }) => (
-<div class="card bg-dark text-white">
+<div className="card bg-dark text-white">
     <img  className="w-100 image" src={Image} alt="hacktoberfest"/>
-            <div class="card-img-overlay">
+            <div className="card-img-overlay">
                 <div className="card-title">
                     <h3 className="lead">{Date}</h3>
                     <h2 className="title">{Title}</h2>

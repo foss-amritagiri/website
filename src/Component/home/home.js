@@ -1,9 +1,10 @@
 import React from 'react'
 import Nav from '../nav/nav'
 import Footer from './footer'
-import Things from './things'
+import Abouttheclub from './abouttheclub'
 import Carousel from './carousel/carousel'
 import Events from './events/event'
+
 
 import '../../index.css'
 
@@ -11,9 +12,11 @@ import '../../index.css'
 const Home = () => (
     <div className="page-container">
     <Nav/>
+    <div className="bg-wrapper">
     <Carousel/>
-    <div className="mx-auto"> 
-    <Things/>
+    </div>
+    <div className="mx-auto">
+    <Abouttheclub/> 
     <Events/>
     </div>
      <Footer />

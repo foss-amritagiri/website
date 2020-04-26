@@ -17,8 +17,7 @@ export default function carousel() {
         <div>
             <img src={Team} alt="img"/>
                 <div className="carousel-caption">
-                    <h1 className="carousel-caption text-white">What do we do?</h1>
-                    <button type="button" className="btn btn-warning btn-lg">More</button>
+                    <h1 className="carousel-caption text-white text-uppercase my-4">We do <br/> What we dream</h1>
                 </div>
         </div>
         <div>
