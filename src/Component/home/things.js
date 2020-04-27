@@ -1,7 +1,7 @@
 import React from 'react'
-import Skill from '../../images/skill.svg'
-import Build from '../../images/build.svg'
-import Explore from '../../images/explore.svg'
+import Skill from '../../assets/skill.svg'
+import Build from '../../assets/build.svg'
+import Explore from '../../assets/explore.svg'
 
 const Cards = ({
     Image="",

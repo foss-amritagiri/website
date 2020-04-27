@@ -29,15 +29,15 @@ code {
 }
 
 .bg-custom{
-  background: url(./images/wave.svg);
+  background: url(./assets/wave.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 180%;
+  background-size:180%;
 }
 
 
 .space{
-  padding-top:100px;
+  padding-top:10%;
 }
 
 .footer-bottom{
@@ -52,15 +52,20 @@ footer a {
 }
 
 
+@media only screen and (min-width:1500px){
+  .space{
+    padding-top:18%;
+  }
+}
 
 
 @media only screen and (max-width: 900px){
 .bg-custom{
   background-size:cover !important;
-  background: url('./images/wave_mobile.svg');
+  background: url('./assets/wave_mobile.svg');
 }
 .space{
-  padding-top:5rem !important;
+  padding-top:15vh !important;
 }
 
   .follow-us .fa{

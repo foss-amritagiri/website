@@ -15,7 +15,7 @@ const currentTab = (history, path) => {
 const Nav = ({history}) => (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <img className="App-logo" src={logo} style={{width:"50px"}}/>
+        <img className="App-logo" src={logo} style={{width:"50px"}} alt="logo"/>
         <button 
             className="navbar-toggler collapsed" 
             type="button" 

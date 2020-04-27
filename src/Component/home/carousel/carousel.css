@@ -13,7 +13,7 @@
     margin-top: 15% !important
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
     .carousel-caption h1{
         font-size: 30px;
         left: 0;

@@ -3,7 +3,7 @@ import Nav from './nav/nav'
 import Footer from './home/footer'
 
 const notfound = () => (
-    <div>
+    <div className="page-container">
     <Nav/>
     <div className="container-fluid">
             <div className="jumbotron bg-dark text-white text-center">

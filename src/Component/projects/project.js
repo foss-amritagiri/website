@@ -16,7 +16,6 @@ const Card1 = () => (
         </FlipCard>
 
 )
-
 const Card2 = () => (
     <FlipCard 
         fontTitle="GPMS"

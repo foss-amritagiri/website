@@ -1,5 +1,5 @@
 import React from 'react'
-import Amrita_logo from '../../images/amrita_logo.png'
+import Amrita_logo from '../../assets/amrita_logo.png'
 
 
 
@@ -27,8 +27,8 @@ const FooterNav = () => (
           <h5 className="text-uppercasefont-weight-bold mb-4 px-3">Follow us</h5>
           <div className="follow-us">
             <a href="https://github.com/foss-amritagiri" alt="Github"><i className="fa fa-github-alt fa-2x px-2 mx-auto"></i></a>
-            <a href="#" alt="Twitter"><i className="fa fa-twitter fa-2x px-2 mx-auto"></i></a>
-            <a href="#" alt="Instagram"><i className="fa fa-instagram fa-2x px-2 mx-auto"></i></a>
+            <a href="https://twitter.com/foss_amritagiri" alt="Twitter"><i className="fa fa-twitter fa-2x px-2 mx-auto"></i></a>
+            <a href="https://instagram.com/ag_foss?igshid=6yoiaz3xfx9g" alt="Instagram"><i className="fa fa-instagram fa-2x px-2 mx-auto"></i></a>
             </div>
             </div>
     </div>

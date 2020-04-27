@@ -1,56 +1,59 @@
 import React from 'react';
 import Nav from '../nav/nav';
 import Footer from '../home/footer'
+import People from './people'
 import './about.css'
+import Aadarsh from '../../assets/team/aadarsh.jpg'
+import Paresh from '../../assets/team/paresh.jpg'
+import Srivatsan from '../../assets/team/srivatsan.jpg'
 
 
-const People = ({
-    Image="",
-    Name="",
-    About="",
-    Facebook="",
-    Twitter="",
-    Github=""
-}) => (
-    <div className="col-md-3 py-2 mx-auto">
-    <div class="people mx-auto">
-    <img src={Image} className="w-100" alt="" />
-    <div class="info">
-      <h2>{Name}</h2>
-      <p>{About}</p>
-     <a href={Facebook} class="fa fa-facebook"></a>
-      <a href={Twitter} class="fa fa-twitter"></a>
-      <a href={Github} class="fa fa-github"></a>
-    </div>
-  </div>
-  </div>
+const Team = () => (
+  <div className="container text-center">
+                <h1 className="display-3">Meet The Team</h1>
+                <p>"Teamwork is essential – it allows you to blame someone else."</p>
+            <div className="container-fluid row m-0">
+            <People 
+                Image={Aadarsh}
+                Name="Aadarsh"
+                About="ML and Web"
+                Instagram="https://www.instagram.com/aadhufer/"
+                Github="https://github.com/aadarshsg2000"
+                Twitter="https://twitter.com/sg_aadarsh"
+             />
+            <People 
+            Image={Paresh}
+            Name="Paresh Mon"
+            About="UI/UX and Front-end"
+            Instagram="https://www.instagram.com/paresh_._/"
+            Github="https://github.com/Elitepro6161"
+            Twitter="https://twitter.com/PareshKenway"
+            />
+            <People 
+                Image={Srivatsan}
+                Name="Srivatsan"
+                About="Full Stack Developer"
+                Instagram="https://www.instagram.com/krypto.zip"
+                Github="https://github.com/kryptocodes"
+                Twitter="https://twitter.com/srivatsantb"
+            />
+            </div>
+      </div>
 )
+
 
 const about = () => (
     <div className="page-container">
     <Nav/>
     <div className="container-fluid jumbotron bg-light">
             <h1 className="text-center text-uppercase display-4">About us</h1>
-            </div>
-            <div className="container text-center">
-                <h1 className="display-3">Meet The Team</h1>
-                <p>“Individuals can and do make a difference, but it takes a team to really mess things up.”</p>
-            <div className="row mx-auto d-flex align-items-center">
-            <People 
-                Image="https://agfoss.tech/imgs/team/aadhu.jpg"
-                Name="Aadarsh"
-                About="ML"
-            />
-            <People 
-            Image="https://agfoss.tech/imgs/team/img2.jpeg"
-            Name="Cat"
-        />
-        <People 
-        Image="https://avatars1.githubusercontent.com/u/53054851?s=460&v=4"
-        Name="Cat"
-    />
-            </div>
-            </div>
+            <p className="lead text-justify text-center py-2 m-0 px-5">
+            We're a group of students who are enthusiastic about the 
+            open source movement and spread awareness about 
+            Foss and programming in and around the campus.
+            </p>
+        </div>
+            <Team/>      
      <Footer/>
      </div>
 )

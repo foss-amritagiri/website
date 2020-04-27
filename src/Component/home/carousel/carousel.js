@@ -2,8 +2,8 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './carousel.css'
-import Bg from '../../../images/bg_1.jpg'
-import Team from '../../../images/item.jpg'
+import Bg from '../../../assets/bg_1.jpg'
+import Team from '../../../assets/item.jpg'
 
 export default function carousel() {
     return (

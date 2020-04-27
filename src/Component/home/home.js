@@ -12,13 +12,9 @@ import '../../index.css'
 const Home = () => (
     <div className="page-container">
     <Nav/>
-    <div className="bg-wrapper">
     <Carousel/>
-    </div>
-    <div className="mx-auto">
     <Abouttheclub/> 
     <Events/>
-    </div>
      <Footer />
      </div>
      
