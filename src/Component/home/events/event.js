@@ -1,9 +1,9 @@
 import React from 'react'
 import Poster from './poster'
 import './events.css'
-import Hacktober from '../../../images/hacktober.png' 
-import Talk from '../../../images/talk.png'
-import Tech from '../../../images/tech.png' 
+import Hacktober from '../../../images/hacktober.jpg' 
+import Talk from '../../../images/talk.jpg'
+import Tech from '../../../images/tech.jpg' 
 
 export default function event() {
     return (

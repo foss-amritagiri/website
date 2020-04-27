@@ -1,9 +1,14 @@
+
+.carousel{
+    height: 100vh;
+}
+
+
 .carousel-caption {
-    top: 30%;
+    top: 20%;
     bottom: auto;
     color:black;
   }
-
 .btn{
     margin-top: 15% !important
 }
@@ -14,6 +19,10 @@
         left: 0;
         right: 0;
     }
+    .carousel{
+        height:unset !important;
+    }
+    
     .carousel-caption {
         top: 15% !important;
       }

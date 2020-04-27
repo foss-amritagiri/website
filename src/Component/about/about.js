@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../nav/nav';
 import Footer from '../home/footer'
-import Team from '../../images/team.svg'
+import './about.css'
 
 const about = () => (
     <div className="page-container">

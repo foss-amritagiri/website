@@ -5,7 +5,7 @@ import Things from './things'
 export default function abouttheclub() {
     return (
         <div className="container">
-        <h1 className="text-center my-4">WHO WE ARE?</h1>
+        <h3 className="text-center my-4">WHO WE ARE?</h3>
         <p className="lead text-justify p-3">
         FOSS@Amritagiri is the open source club.It is a volunteer driven club that 
         focuses on free and open source software (FOSS), open standards, open technologies, 

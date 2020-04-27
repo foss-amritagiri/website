@@ -2,11 +2,12 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './carousel.css'
-import Team from '../../../images/item.png' 
+import Bg from '../../../images/bg_1.jpg'
+import Team from '../../../images/item.jpg'
 
 export default function carousel() {
     return (
-        <div>
+        <div className="landing-page">
         <Carousel 
         showThumbs={false} 
         infiniteLoop={true} 
@@ -21,7 +22,7 @@ export default function carousel() {
                 </div>
         </div>
         <div>
-            <img src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="w-100" />
+            <img src={Bg} className="w-100" alt="img_1"/>
             <div className="carousel-caption">
                     <h1 className="carousel-caption text-white">What do we do?</h1>
                     <button type="button" className="btn btn-warning btn-lg">More</button>
