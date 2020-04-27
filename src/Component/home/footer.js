@@ -1,4 +1,7 @@
 import React from 'react'
+import Amrita_logo from '../../images/amrita_logo.png'
+
+
 
 const FooterNav = () => (
     <footer className="footer text-center text-md-left pt-2 bg-custom">
@@ -42,7 +45,7 @@ const footer = () => (
       
       <div className="col-md-5 py-3">
          <a href="https://amrita.edu.in">
-         <img className="w-50" src="https://events.agfoss.tech/static/amrita-c4212d3f473f977f4417f58c4a8103d6.png" alt="amrita" /></a>
+         <img className="w-50" src={Amrita_logo} alt="amrita" /></a>
        </div>
       <div className="col-md-4 text-white mx-auto py-4">
          &copy; Team AgFoss 2018-{new Date().getFullYear()}.

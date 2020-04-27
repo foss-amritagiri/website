@@ -24,8 +24,8 @@ export default function carousel() {
         <div>
             <img src={Bg} className="w-100" alt="img_1"/>
             <div className="carousel-caption">
-                    <h1 className="carousel-caption text-white">What do we do?</h1>
-                    <button type="button" className="btn btn-warning btn-lg">More</button>
+                    <h1 className="carousel-caption text-white">Because Open Source <br/>is the Future</h1>
+                    <button type="button" className="btn btn-warning btn-lg d-none">More</button>
                 </div>
         </div>
     </Carousel>

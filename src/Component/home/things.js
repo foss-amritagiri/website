@@ -8,8 +8,8 @@ const Cards = ({
     Heading="",
 }) => (
     <div className="col-md-4 p-2 mx-auto">
-        <div className="card px-2 py-3 d-flex align-items-center">
-             <img src={Image} className="w-100 mx-2 my-2" alt="Skill"/>
+        <div className="card px-2 py-4 h-100 d-flex align-items-center">
+             <img src={Image} className="w-100 mx-auto" alt="Skill"/>
             <h3 className="lead p-2">{Heading}</h3>
         </div>      
     </div>

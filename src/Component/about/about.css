@@ -1,0 +1,68 @@
+
+  .people {
+    width:33%;
+    min-width: 250px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .people img {
+    width: 100%;
+    min-height:100%;
+    transition:all 0.9s;
+  }
+  .people:hover img{
+   transform:scale(1.25,1.25);
+  }
+  .info {
+    position: absolute;
+    bottom: 5%;
+    background: #fff;
+    text-align:center;
+    width: 90%;
+    height: 60px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0.8;
+    transition: all 0.4s;
+  }
+  
+  .people:hover .info {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    opacity: 0.9;
+    padding:90px 10%;
+  }
+  
+  .info h2 {
+    text-align: center;
+    transition:color 0.4s
+  }
+  
+  .info p {
+    opacity: 0;
+    text-align: center;
+    transition: all 0.2s
+  }
+  
+  .people:hover .info p,.people:hover .info a {
+    opacity: 1
+  }
+  
+  .info a{
+    color:#333;
+    text-decoration:none;
+    padding:10px;
+    opacity:0
+  }
+  .info a:hover,.people:hover h2{
+    color:#38c
+  }
+  
+  
+  
+  
