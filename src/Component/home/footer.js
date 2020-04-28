@@ -10,15 +10,23 @@ const FooterNav = () => (
             <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">The Club</h5>
                  <ul className="list-unstyled">
-                    <li><a href="https://blog.agfoss.tech/" alt="Blog">Blog</a></li>
-                    <li><a href="#" alt="Workshop">Workshop</a></li>
-                    <li><a href="https://events.agfoss.tech/" alt="Events">Events</a></li>
+                    <li>
+                      <a href="https://blog.agfoss.tech/" alt="Blog">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#" alt="Workshop">Workshop</a>
+                    </li>
+                    <li>
+                        <a href="https://events.agfoss.tech/" alt="Events">Events</a>
+                    </li>
                 </ul>
             </div>
         <div className="col-md-2 mx-auto">
                 <h5 className="text-uppercase font-weight-bold mb-4">Contact us</h5>
                   <h6 className="text-uppercase"><i className="fa fa-envelope-o fa-1x"></i> Email</h6>
-                    <p><a href="mailto:amritagirifoss@gmail.com" alt="Email">amritagirifoss@gmail.com</a></p>
+                    <p>
+                      <a href="mailto:amritagirifoss@gmail.com" alt="Email">amritagirifoss@gmail.com</a>
+                    </p>
                   <h6 className="text-uppercase"><i className="fa fa-location-arrow fa-1x"></i>Address</h6>
                     <address>Amrita College <br/>of Engineering and Technology <br/>
                         Nagercoil,India</address>

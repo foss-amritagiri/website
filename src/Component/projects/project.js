@@ -10,9 +10,9 @@ const Card1 = () => (
         fontTitle="Amrita Repo"
         fontSubTitle="web application"
         backTitle="Amrita Repo"
-        backText="A simple webapp for amritian"
+        backText="A simple webapp to view Timetable and track syllabus"
         >
-        <a href="https://github.com/">View on Github</a>
+        <a href="https://github.com/kryptocodes/amrita_repo" alt="AmritaRepo">View on Github</a>
         </FlipCard>
 
 )
@@ -23,7 +23,7 @@ const Card2 = () => (
         backTitle="GPMS"
         backText="Gate pass management system"
         >
-        <a href="https://github.com/kryptocodes/GPMS_backend">View on Github</a>
+        <a href="https://github.com/kryptocodes/GPMS_backend" alt="GPMS">View on Github</a>
         </FlipCard>
 
 )

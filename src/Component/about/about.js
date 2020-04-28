@@ -45,9 +45,9 @@ const Team = () => (
 const about = () => (
     <div className="page-container">
     <Nav/>
-    <div className="container-fluid jumbotron bg-light">
+    <div className="container-fluid jumbotron text-center bg-light">
             <h1 className="text-center text-uppercase display-4">About us</h1>
-            <p className="lead text-justify text-center py-2 m-0 px-5">
+            <p className="lead text-justify py-2 px-5">
             We're a group of students who are enthusiastic about the 
             open source movement and spread awareness about 
             Foss and programming in and around the campus.

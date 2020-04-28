@@ -1,12 +1,11 @@
 import React from 'react'
-import '../../style.css'
-import logo from '../../logo.svg'
+import Logo from '../../assets/logo.png'
 import {Link, withRouter} from "react-router-dom"
 
 
 const currentTab = (history, path) => {
     if(history.location.pathname === path){
-        return {color: '#FFC107'}
+        return {color: '#0099ff'}
     } else{
         return {color: "#FFFFFF"}
     }
@@ -15,7 +14,7 @@ const currentTab = (history, path) => {
 const Nav = ({history}) => (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <img className="App-logo" src={logo} style={{width:"50px"}} alt="logo"/>
+        <img className="logo" src={Logo} style={{width:"100px"}} alt="logo"/>
         <button 
             className="navbar-toggler collapsed" 
             type="button" 

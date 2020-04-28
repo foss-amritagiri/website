@@ -52,9 +52,9 @@ footer a {
 }
 
 
-@media only screen and (min-width:1500px){
+@media only screen and (min-width:1024px){
   .space{
-    padding-top:18%;
+    padding-top:14%;
   }
 }
 
