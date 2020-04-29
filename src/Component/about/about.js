@@ -16,7 +16,7 @@ const Team = () => (
             <People 
                 Image={Aadarsh}
                 Name="Aadarsh"
-                About="ML and Web"
+                About="ML"
                 Instagram="https://www.instagram.com/aadhufer/"
                 Github="https://github.com/aadarshsg2000"
                 Twitter="https://twitter.com/sg_aadarsh"

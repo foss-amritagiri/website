@@ -14,7 +14,9 @@ const currentTab = (history, path) => {
 const Nav = ({history}) => (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <img className="logo" src={Logo} style={{width:"100px"}} alt="logo"/>
+        <Link to="/">
+            <img className="logo" src={Logo} style={{width:"90px"}} alt="logo"/>
+        </Link> 
         <button 
             className="navbar-toggler collapsed" 
             type="button" 

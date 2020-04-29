@@ -1,5 +1,5 @@
 
-.carousel{
+.carousel {
     height: 100vh;
 }
 
@@ -8,9 +8,6 @@
     top: 20%;
     bottom: auto;
     color:black;
-  }
-.btn{
-    margin-top: 15% !important
 }
 
 @media screen and (max-width: 1200px){
@@ -26,7 +23,4 @@
     .carousel-caption {
         top: 15% !important;
       }
-    .btn{
-        margin-top: 40% !important;
-    }
 }

@@ -51,8 +51,13 @@ footer a {
   color:black !important;
 }
 
+@media only screen and (min-width:1200px ){
+  .space{
+    padding-top:20% !important;
+  }
+}
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:900px ){
   .space{
     padding-top:14%;
   }
@@ -80,7 +85,7 @@ footer a {
 }
 
 body{
-  padding-top:51px;
+  padding-top:60px;
 }
 
 .navbar{

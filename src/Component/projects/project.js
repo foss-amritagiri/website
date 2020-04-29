@@ -21,7 +21,7 @@ const Card2 = () => (
         fontTitle="GPMS"
         fontSubTitle="Gate pass management system"
         backTitle="GPMS"
-        backText="Gate pass management system"
+        backText="A GPMS portal to apply gate pass"
         >
         <a href="https://github.com/kryptocodes/GPMS_backend" alt="GPMS">View on Github</a>
         </FlipCard>

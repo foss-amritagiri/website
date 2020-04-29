@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './carousel.css'
 import Bg from '../../../assets/bg_1.jpg'
+import Bg2 from '../../../assets/bg_2.jpg'
 import Team from '../../../assets/item.jpg'
 
 export default function carousel() {
@@ -16,16 +17,21 @@ export default function carousel() {
         showIndicators={false}
     >
         <div>
-            <img src={Team} alt="img"/>
-                <div className="carousel-caption">
-                    <h1 className="carousel-caption text-white text-uppercase my-4">We do <br/> What we dream</h1>
+            <img src={Bg2} className="w-100" alt="img_1"/>
+            <div className="carousel-caption">
+                    <h1 className="carousel-caption text-uppercase text-white">We work to build things</h1>
                 </div>
         </div>
         <div>
-            <img src={Bg} className="w-100" alt="img_1"/>
+        <img src={Bg} className="w-100" alt="img"/>
             <div className="carousel-caption">
-                    <h1 className="carousel-caption text-white">Because Open Source <br/>is the Future</h1>
-                    <button type="button" className="btn btn-warning btn-lg d-none">More</button>
+                <h1 className="carousel-caption text-white text-uppercase my-4">sometimes break them too</h1>
+            </div>
+        </div>
+        <div>
+            <img src={Team} alt="img_2"/>
+                <div className="carousel-caption">
+                    <h1 className="carousel-caption text-white text-uppercase my-4">We do <br/> What we dream</h1>
                 </div>
         </div>
     </Carousel>
