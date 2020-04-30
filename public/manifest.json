@@ -1,8 +1,9 @@
 {
   "short_name": "Foss@Amritagiri",
   "name": "agFOSS",
-  "description": "Foss@Amritagiri",
+  "description": "A Student Community of Open Source Enthusiasts",
   "start_url": "/",
+  "lang":"en",
   "display": "standalone",
   "theme_color": "#343a40",
   "background_color": "#343a40",
@@ -13,7 +14,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "android-chrome-192x192",
+      "src": "android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
