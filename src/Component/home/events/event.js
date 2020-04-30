@@ -10,7 +10,7 @@ export default function event() {
         <div className="events">
             <div className="container jumbotron bg-transparent">
             <h1 className="display-3 text-center">Events</h1>
-                    <div className="row m-0 my-4">
+                    <div className="row m-0 my-4 mx-4">
                     <div className="col-md-3 p-2 d-flex  align-items-center mx-auto">
                     <Poster 
                         Image={Hacktober} 

@@ -19,7 +19,7 @@ export default function carousel() {
         <div>
             <img src={Bg2} className="w-100" alt="img_1"/>
             <div className="carousel-caption">
-                    <h1 className="carousel-caption text-uppercase text-white">We work to build things</h1>
+                    <h1 className="carousel-caption text-uppercase text-white my-4">We work to build things</h1>
                 </div>
         </div>
         <div>

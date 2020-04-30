@@ -11,16 +11,13 @@
 }
 
 @media screen and (max-width: 1200px){
-    .carousel-caption h1{
+    .carousel-caption{
         font-size: 30px;
         left: 0;
         right: 0;
+        top:10%;
     }
     .carousel{
         height:unset !important;
     }
-    
-    .carousel-caption {
-        top: 15% !important;
-      }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Amrita_logo from '../../assets/amrita_logo.png'
-
+import {Link} from 'react-router-dom'
 
 
 const FooterNav = () => (
@@ -14,7 +14,7 @@ const FooterNav = () => (
                       <a href="https://blog.agfoss.tech/" alt="Blog">Blog</a>
                     </li>
                     <li>
-                      <a href="#" alt="Workshop">Workshop</a>
+                      <Link to='/workshop'>Workshop</Link>
                     </li>
                     <li>
                         <a href="https://events.agfoss.tech/" alt="Events">Events</a>
@@ -25,7 +25,7 @@ const FooterNav = () => (
                 <h5 className="text-uppercase font-weight-bold mb-4">Contact us</h5>
                   <h6 className="text-uppercase"><i className="fa fa-envelope-o fa-1x"></i> Email</h6>
                     <p>
-                      <a href="mailto:amritagirifoss@gmail.com" alt="Email">amritagirifoss@gmail.com</a>
+                      <a href="mailto:fossamritagiri@gmail.com" alt="Email">fossamritagiri@gmail.com</a>
                     </p>
                   <h6 className="text-uppercase"><i className="fa fa-location-arrow fa-1x"></i>Address</h6>
                     <address>Amrita College <br/>of Engineering and Technology <br/>

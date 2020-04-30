@@ -18,12 +18,12 @@
     bottom: 10%;
     background: #fff;
     text-align:center;
-    width: 80%;
-    height: 50px;
+    width: 85%;
+    height: 20%;
     overflow: hidden;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: auto auto;
     opacity: 0.8;
     transition: all 0.4s;
   }
@@ -33,7 +33,7 @@
     height: 100%;
     bottom: 0;
     opacity: 0.9;
-    padding:90px 10%;
+    padding:25% 10%;
   }
   
   .info h2 {
@@ -61,6 +61,8 @@
     color:#0099ff;
   }
   
-  
-  
-  
+  @media only screen and (min-width:900px){
+    .people:hover .info {
+      padding:15% 10% !important;
+    }
+  }
