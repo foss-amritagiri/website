@@ -10,9 +10,9 @@ const Poster = ({
     <img  className="w-100 image" src={Image} alt="hacktoberfest"/>
             <div className="card-img-overlay">
                 <div className="card-title">
-                    <h3 className="lead">{Date}</h3>
+                    <p>{Date}</p>
                     <h2 className="title">{Title}</h2>
-                    <p className="">{Description}</p>
+                    <p>{Description}</p>
                 </div>
              </div>
    </div>

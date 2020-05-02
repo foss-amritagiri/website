@@ -1,15 +1,16 @@
-
-.events{
-    padding-bottom: 10px;
-}
-
 .card-title{
     text-align: center;
-    margin-top: 45%;
+    margin-top: 40%;
     transition: .5s ease;
     opacity: 0;
 }
 
+h2{
+  font-size:25px;
+}
+p{
+  font-size:15px
+}
 .image {
     transition: .5s ease;
   }
@@ -26,3 +27,17 @@
     opacity: 0.2;
   
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  h2{
+    font-size:1.75vw;
+  }
+  
+  p{
+    font-size:1.25vw;
+  }
+}
+
+

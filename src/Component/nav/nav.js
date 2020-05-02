@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/FOSS.png'
 import {Link, withRouter} from "react-router-dom"
 
 
@@ -15,7 +15,7 @@ const Nav = ({history}) => (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <Link to="/">
-            <img className="logo" src={Logo} style={{width:"90px"}} alt="logo"/>
+            <img className="logo" src={Logo} style={{width:"32px"}} alt="logo"/>
         </Link> 
         <button 
             className="navbar-toggler collapsed" 
@@ -38,7 +38,7 @@ const Nav = ({history}) => (
             </li>
             <li className="nav-item">
                 <Link style={currentTab(history, "/project")} className="nav-link" to="/project">
-                Project
+                Projects
                 </Link>
             </li>
             <li className="nav-item">
