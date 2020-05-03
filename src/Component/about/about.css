@@ -48,14 +48,14 @@
   }
   
   .people:hover .info p,.people:hover .info a {
-    opacity: 1
+    opacity: 1;
   }
   
   .info a{
     color:#333;
     text-decoration:none;
     padding:10px;
-    opacity:0
+    opacity:0;
   }
   .info a:hover,.people:hover h2{
     color:#0099ff;

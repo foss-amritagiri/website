@@ -3,11 +3,6 @@
     height: 100vh;
 }
 
-.carousel img{
-    opacity: 80%;
-}
-
-
 .carousel-caption {
     font-size:3.5rem;
     top: 20%;
