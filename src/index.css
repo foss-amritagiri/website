@@ -8,11 +8,6 @@ body {
   background-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 h2,h3{
   font-family: 'Exo 2', sans-serif;
 }
@@ -22,6 +17,7 @@ h2,h3{
   position: relative;
   min-height: 100vh;
 }
+
 .container{
   padding-bottom: 2.5rem;
 }
