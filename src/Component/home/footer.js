@@ -25,7 +25,7 @@ const FooterNav = () => (
                 <h5 className="text-uppercase font-weight-bold mb-4">Contact us</h5>
                   <h6 className="text-uppercase"><i className="fa fa-envelope-o fa-1x"></i> Email</h6>
                     <p>
-                      <a href="mailto:fossamritagiri@gmail.com" alt="Email">fossamritagiri@gmail.com</a>
+                      <a href="mailto:amritagirifoss@gmail.com" alt="Email">amritagirifoss@gmail.com</a>
                     </p>
                   <h6 className="text-uppercase"><i className="fa fa-location-arrow fa-1x"></i>Address</h6>
                     <address>Amrita College <br/>of Engineering and Technology <br/>

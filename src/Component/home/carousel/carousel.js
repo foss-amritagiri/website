@@ -29,7 +29,7 @@ export default function carousel() {
             </div>
         </div>
         <div>
-            <img src={Team} alt="img_2"/>
+            <img src={Team} className="w-100" alt="img_2"/>
                 <div className="carousel-caption">
                     <h1 className="display-2 carousel-caption text-white text-uppercase my-4">We do <br/> What we dream</h1>
                 </div>
