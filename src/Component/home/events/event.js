@@ -9,7 +9,7 @@ export default function event() {
     return (
         <div className="events">
             <div className="container jumbotron bg-transparent">
-            <h3 className="display-3 text-center">Events</h3>
+            <h2 className="display-4 text-center">Events</h2>
                     <div className="row m-0 my-4 mx-4">
                     <div className="col-md-3 p-2 d-flex  align-items-center mx-auto">
                     <Poster 

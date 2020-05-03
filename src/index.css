@@ -13,12 +13,10 @@ code {
     monospace;
 }
 
-h1,h2{
+h2,h3{
   font-family: 'Exo 2', sans-serif;
 }
-p{
-  font-family: 'Roboto', sans-serif;
-}
+
 
 .page-container{
   position: relative;
@@ -26,6 +24,11 @@ p{
 }
 .container{
   padding-bottom: 2.5rem;
+}
+
+.navbar-nav .nav-item{
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 .navbar-toggler>.close {

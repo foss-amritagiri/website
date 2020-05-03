@@ -5,8 +5,9 @@
     opacity: 0;
 }
 
-h2{
-  font-size:25px;
+
+h3{
+  font-size:20px;
 }
 p{
   font-size:15px
@@ -31,7 +32,7 @@ p{
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-  h2{
+  h3{
     font-size:1.75vw;
   }
   

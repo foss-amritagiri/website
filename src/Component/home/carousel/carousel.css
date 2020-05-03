@@ -3,16 +3,23 @@
     height: 100vh;
 }
 
+.carousel img{
+    opacity: 80%;
+}
+
 
 .carousel-caption {
+    font-size:3.5rem;
     top: 20%;
     bottom: auto;
     color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1200px){
     .carousel-caption{
-        font-size: 30px;
+        font-size: 2.5rem;
         left: 0;
         right: 0;
         top:10%;

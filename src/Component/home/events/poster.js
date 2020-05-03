@@ -11,7 +11,7 @@ const Poster = ({
             <div className="card-img-overlay">
                 <div className="card-title">
                     <p>{Date}</p>
-                    <h2 className="title">{Title}</h2>
+                    <h3 className="title">{Title}</h3>
                     <p>{Description}</p>
                 </div>
              </div>

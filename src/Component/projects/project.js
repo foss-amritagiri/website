@@ -34,7 +34,7 @@ export default function project() {
         <div className="page-container">
         <Nav/>
         <div className="jumbotron">
-        <h1 className="display-4 text-center text-uppercase">Projects</h1>
+        <h2 className="display-4 text-center text-uppercase">Projects</h2>
         <p className="lead text-center py-1">A curated collection of open source projects which are contributed and maintained by foss members</p>
         </div>
         <div className="container">
